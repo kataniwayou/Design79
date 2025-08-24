@@ -33,7 +33,7 @@ data:
 
   # Distributed Cache Configuration (Internal cluster addresses)
   Hazelcast__ClusterName: "EntitiesManager"
-  Hazelcast__Servers__0: "design74-hazelcast:5701"
+  Hazelcast__NetworkConfig__Addresses__0: "design74-hazelcast:5701"
 
   # Cache Map Names
   PROCESSOR_HEALTH_MAP_NAME: "processor-health"

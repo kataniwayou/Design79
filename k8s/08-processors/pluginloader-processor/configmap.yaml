@@ -46,7 +46,8 @@ data:
   OpenTelemetry__ServiceName: "PluginLoaderProcessor"
   OpenTelemetry__ServiceVersion: "1.0.0"
   
-  # Hazelcast Configuration (processor-specific)
+  # Hazelcast Configuration (processor-specific timeouts and retry settings)
+  # Note: ClusterName and Addresses are inherited from infrastructure-config
   Hazelcast__ConnectionTimeout: "00:00:30"
   Hazelcast__ConnectionRetryConfig__InitialBackoffMillis: "1000"
   Hazelcast__ConnectionRetryConfig__MaxBackoffMillis: "30000"
@@ -78,7 +79,7 @@ data:
   ProcessorHealthMonitor__RetryDelayMs: "2000"
   ProcessorHealthMonitor__LogHealthChecks: "true"
   ProcessorHealthMonitor__LogLevel: "Information"
-  ProcessorHealthMonitor__ContinueOnCacheFailure: "false"
+  ProcessorHealthMonitor__ContinueOnCacheFailure: "true"
   ProcessorHealthMonitor__UseExponentialBackoff: "true"
   ProcessorHealthMonitor__PerformanceMetrics__CollectCpuMetrics: "true"
   ProcessorHealthMonitor__PerformanceMetrics__CollectMemoryMetrics: "true"
@@ -91,6 +92,6 @@ data:
   ProcessorActivityDataCache__MaxRetries: "3"
   ProcessorActivityDataCache__RetryDelayMs: "1000"
   ProcessorActivityDataCache__UseExponentialBackoff: "true"
-  ProcessorActivityDataCache__ContinueOnCacheFailure: "false"
+  ProcessorActivityDataCache__ContinueOnCacheFailure: "true"
   ProcessorActivityDataCache__LogCacheOperations: "true"
   ProcessorActivityDataCache__LogLevel: "Information"
