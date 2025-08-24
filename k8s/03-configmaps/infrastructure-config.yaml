@@ -16,8 +16,10 @@ data:
   MASSTRANSIT_PROVIDER: "RabbitMQ"
   RabbitMQ__Host: "design74-rabbitmq"
   RabbitMQ__Port: "5672"
-  RabbitMQ__Username: "guest"
-  RabbitMQ__Password: "guest"
+
+  # RabbitMQ Environment Variables (for RabbitMQ container)
+  RABBITMQ_USERNAME: "guest"
+  RABBITMQ_PASSWORD: "guest"
   RabbitMQ__VirtualHost: "/"
   RabbitMQ__RetryLimit: "3"
   RabbitMQ__RetryInterval: "00:00:30"

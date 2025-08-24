@@ -31,12 +31,12 @@ spec:
         - name: RABBITMQ_DEFAULT_USER
           valueFrom:
             configMapKeyRef:
-              name: design74-shared-config
+              name: design74-infrastructure-config
               key: RABBITMQ_USERNAME
         - name: RABBITMQ_DEFAULT_PASS
           valueFrom:
             configMapKeyRef:
-              name: design74-shared-config
+              name: design74-infrastructure-config
               key: RABBITMQ_PASSWORD
         - name: RABBITMQ_DEFAULT_VHOST
           value: "/"
