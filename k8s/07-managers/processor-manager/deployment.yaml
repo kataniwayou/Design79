@@ -1,0 +1,127 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: design74-processor-manager
+  namespace: design74-infrastructure
+  labels:
+    app: design74-processor-manager
+    component: manager
+    project: design74
+    manager-type: processor
+spec:
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  selector:
+    matchLabels:
+      app: design74-processor-manager
+  template:
+    metadata:
+      labels:
+        app: design74-processor-manager
+        component: manager
+        project: design74
+        manager-type: processor
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "5110"
+        prometheus.io/path: "/metrics"
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        runAsGroup: 1000
+        fsGroup: 1000
+      containers:
+      - name: processor-manager
+        image: design74/processor-manager:latest
+        imagePullPolicy: Never
+
+        ports:
+        - containerPort: 5110
+          name: http
+          protocol: TCP
+        
+        # Health Probes
+        startupProbe:
+          httpGet:
+            path: /health
+            port: 5110
+            scheme: HTTP
+          initialDelaySeconds: 10
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 30
+          successThreshold: 1
+        
+        livenessProbe:
+          httpGet:
+            path: /health
+            port: 5110
+            scheme: HTTP
+          initialDelaySeconds: 30
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+          successThreshold: 1
+        
+        readinessProbe:
+          httpGet:
+            path: /health
+            port: 5110
+            scheme: HTTP
+          initialDelaySeconds: 15
+          periodSeconds: 5
+          timeoutSeconds: 3
+          failureThreshold: 3
+          successThreshold: 1
+        
+        # Resource Management
+        resources:
+          requests:
+            memory: "512Mi"
+            cpu: "250m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+        
+        # Environment Configuration - Layered ConfigMaps
+        # Precedence: Infrastructure → Service Registry → Service-Specific
+        envFrom:
+        - configMapRef:
+            name: design74-infrastructure-config
+        - configMapRef:
+            name: design74-service-registry-config
+        - configMapRef:
+            name: design74-processor-manager-config
+
+        
+        # Security Context
+        securityContext:
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: false
+          capabilities:
+            drop:
+            - ALL
+
+      
+      # Pod Scheduling
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: app
+                  operator: In
+                  values:
+                  - design74-processor-manager
+              topologyKey: kubernetes.io/hostname
+      
+      # Restart Policy
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30

@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: design74-assignment-manager
+  namespace: design74-infrastructure
+  labels:
+    app: design74-assignment-manager
+    component: manager
+    project: design74
+    manager-type: assignment
+    service-type: internal
+    port-forward: "enabled"
+  annotations:
+    port-forward.design74.io/ports: "5130"
+    port-forward.design74.io/description: "Assignment Manager API access"
+    service.alpha.kubernetes.io/tolerate-unready-endpoints: "true"
+spec:
+  type: ClusterIP
+  ports:
+  - port: 5130
+    targetPort: 5130
+    protocol: TCP
+    name: http
+  selector:
+    app: design74-assignment-manager
+  sessionAffinity: None
+  
+---
+apiVersion: v1
+kind: Endpoints
+metadata:
+  name: design74-assignment-manager
+  namespace: design74-infrastructure
+  labels:
+    app: design74-assignment-manager
+    component: manager
+    project: design74
+# Endpoints will be automatically populated by Kubernetes based on pod readiness

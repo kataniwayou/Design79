@@ -1,0 +1,112 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: design74-pluginloader-processor
+  namespace: design74-infrastructure
+  labels:
+    app: design74-pluginloader-processor
+    component: processor
+    project: design74
+    processor-type: pluginloader
+spec:
+  replicas: 1
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 25%
+      maxSurge: 25%
+  selector:
+    matchLabels:
+      app: design74-pluginloader-processor
+  template:
+    metadata:
+      labels:
+        app: design74-pluginloader-processor
+        component: processor
+        project: design74
+        processor-type: pluginloader
+      annotations:
+        prometheus.io/scrape: "true"
+        prometheus.io/port: "8080"
+        prometheus.io/path: "/metrics"
+    spec:
+      securityContext:
+        runAsNonRoot: true
+        runAsUser: 1000
+        runAsGroup: 1000
+        fsGroup: 1000
+      containers:
+      - name: pluginloader-processor
+        image: design74/pluginloader-processor:latest
+        imagePullPolicy: Never
+        
+        # Resource Management
+        resources:
+          requests:
+            memory: "256Mi"
+            cpu: "100m"
+          limits:
+            memory: "1Gi"
+            cpu: "500m"
+        
+        # Health Checks - Processors don't expose HTTP endpoints
+        # They communicate via message queues and store health in Hazelcast
+        livenessProbe:
+          exec:
+            command:
+            - /bin/sh
+            - -c
+            - "pidof dotnet"
+          initialDelaySeconds: 30
+          periodSeconds: 30
+          timeoutSeconds: 5
+          failureThreshold: 3
+
+        readinessProbe:
+          exec:
+            command:
+            - /bin/sh
+            - -c
+            - "pidof dotnet"
+          initialDelaySeconds: 15
+          periodSeconds: 10
+          timeoutSeconds: 5
+          failureThreshold: 3
+        
+        # Environment Configuration - Layered ConfigMaps
+        # Precedence: Infrastructure → Service Registry → Service-Specific
+        envFrom:
+        - configMapRef:
+            name: design74-infrastructure-config
+        - configMapRef:
+            name: design74-service-registry-config
+        - configMapRef:
+            name: design74-pluginloader-processor-config
+
+        
+        # Security Context
+        securityContext:
+          allowPrivilegeEscalation: false
+          readOnlyRootFilesystem: false
+          capabilities:
+            drop:
+            - ALL
+
+      
+      # Pod Scheduling
+      affinity:
+        podAntiAffinity:
+          preferredDuringSchedulingIgnoredDuringExecution:
+          - weight: 100
+            podAffinityTerm:
+              labelSelector:
+                matchExpressions:
+                - key: app
+                  operator: In
+                  values:
+                  - design74-pluginloader-processor
+              topologyKey: kubernetes.io/hostname
+      
+      # Restart Policy
+      restartPolicy: Always
+      terminationGracePeriodSeconds: 30

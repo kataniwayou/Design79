@@ -1,0 +1,279 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\UserL\\source\\repos\\Design78\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD0EC02-37DB-443F-AD77-B57181EE9E96}|Processors\\Processor.PluginLoader\\Processor.PluginLoader.csproj|c:\\users\\userl\\source\\repos\\design78\\processors\\processor.pluginloader\\services\\pluginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8DD0EC02-37DB-443F-AD77-B57181EE9E96}|Processors\\Processor.PluginLoader\\Processor.PluginLoader.csproj|solutionrelative:processors\\processor.pluginloader\\services\\pluginmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD0EC02-37DB-443F-AD77-B57181EE9E96}|Processors\\Processor.PluginLoader\\Processor.PluginLoader.csproj|c:\\users\\userl\\source\\repos\\design78\\processors\\processor.pluginloader\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8DD0EC02-37DB-443F-AD77-B57181EE9E96}|Processors\\Processor.PluginLoader\\Processor.PluginLoader.csproj|solutionrelative:processors\\processor.pluginloader\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD0EC02-37DB-443F-AD77-B57181EE9E96}|Processors\\Processor.PluginLoader\\Processor.PluginLoader.csproj|c:\\users\\userl\\source\\repos\\design78\\processors\\processor.pluginloader\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DD0EC02-37DB-443F-AD77-B57181EE9E96}|Processors\\Processor.PluginLoader\\Processor.PluginLoader.csproj|solutionrelative:processors\\processor.pluginloader\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8DD0EC02-37DB-443F-AD77-B57181EE9E96}|Processors\\Processor.PluginLoader\\Processor.PluginLoader.csproj|c:\\users\\userl\\source\\repos\\design78\\processors\\processor.pluginloader\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8DD0EC02-37DB-443F-AD77-B57181EE9E96}|Processors\\Processor.PluginLoader\\Processor.PluginLoader.csproj|solutionrelative:processors\\processor.pluginloader\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2A1B3C-4D5E-6F78-9A0B-1C2D3E4F5A6B}|Managers\\Manager.Orchestrator\\Manager.Orchestrator.csproj|c:\\users\\userl\\source\\repos\\design78\\managers\\manager.orchestrator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F2A1B3C-4D5E-6F78-9A0B-1C2D3E4F5A6B}|Managers\\Manager.Orchestrator\\Manager.Orchestrator.csproj|solutionrelative:managers\\manager.orchestrator\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2A1B3C-4D5E-6F78-9A0B-1C2D3E4F5A6B}|Managers\\Manager.Orchestrator\\Manager.Orchestrator.csproj|c:\\users\\userl\\source\\repos\\design78\\managers\\manager.orchestrator\\services\\managerhttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2A1B3C-4D5E-6F78-9A0B-1C2D3E4F5A6B}|Managers\\Manager.Orchestrator\\Manager.Orchestrator.csproj|solutionrelative:managers\\manager.orchestrator\\services\\managerhttpclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB87B138-D47F-4041-A44A-DACBC05068F6}|Processors\\Processor.Base\\Processor.Base.csproj|c:\\users\\userl\\source\\repos\\design78\\processors\\processor.base\\baseprocessorapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB87B138-D47F-4041-A44A-DACBC05068F6}|Processors\\Processor.Base\\Processor.Base.csproj|solutionrelative:processors\\processor.base\\baseprocessorapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2A1B3C-4D5E-6F78-9A0B-1C2D3E4F5A6B}|Managers\\Manager.Orchestrator\\Manager.Orchestrator.csproj|c:\\users\\userl\\source\\repos\\design78\\managers\\manager.orchestrator\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{8F2A1B3C-4D5E-6F78-9A0B-1C2D3E4F5A6B}|Managers\\Manager.Orchestrator\\Manager.Orchestrator.csproj|solutionrelative:managers\\manager.orchestrator\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86D2DE08-A816-47E8-A052-D5BA3B98203C}|Managers\\Manager.Schema\\Manager.Schema.csproj|c:\\users\\userl\\source\\repos\\design78\\managers\\manager.schema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{86D2DE08-A816-47E8-A052-D5BA3B98203C}|Managers\\Manager.Schema\\Manager.Schema.csproj|solutionrelative:managers\\manager.schema\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8F2A1B3C-4D5E-6F78-9A0B-1C2D3E4F5A6B}|Managers\\Manager.Orchestrator\\Manager.Orchestrator.csproj|c:\\users\\userl\\source\\repos\\design78\\managers\\manager.orchestrator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F2A1B3C-4D5E-6F78-9A0B-1C2D3E4F5A6B}|Managers\\Manager.Orchestrator\\Manager.Orchestrator.csproj|solutionrelative:managers\\manager.orchestrator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E00D6E-F547-4E4C-9DA3-C67BB8AD0C6C}|Managers\\Manager.OrchestratedFlow\\Manager.OrchestratedFlow.csproj|c:\\users\\userl\\source\\repos\\design78\\managers\\manager.orchestratedflow\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{29E00D6E-F547-4E4C-9DA3-C67BB8AD0C6C}|Managers\\Manager.OrchestratedFlow\\Manager.OrchestratedFlow.csproj|solutionrelative:managers\\manager.orchestratedflow\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29E00D6E-F547-4E4C-9DA3-C67BB8AD0C6C}|Managers\\Manager.OrchestratedFlow\\Manager.OrchestratedFlow.csproj|c:\\users\\userl\\source\\repos\\design78\\managers\\manager.orchestratedflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29E00D6E-F547-4E4C-9DA3-C67BB8AD0C6C}|Managers\\Manager.OrchestratedFlow\\Manager.OrchestratedFlow.csproj|solutionrelative:managers\\manager.orchestratedflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B9411D-4E68-4ECD-9C78-C6B8B3B992A8}|Managers\\Manager.Workflow\\Manager.Workflow.csproj|c:\\users\\userl\\source\\repos\\design78\\managers\\manager.workflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67B9411D-4E68-4ECD-9C78-C6B8B3B992A8}|Managers\\Manager.Workflow\\Manager.Workflow.csproj|solutionrelative:managers\\manager.workflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B9411D-4E68-4ECD-9C78-C6B8B3B992A8}|Managers\\Manager.Workflow\\Manager.Workflow.csproj|c:\\users\\userl\\source\\repos\\design78\\managers\\manager.workflow\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67B9411D-4E68-4ECD-9C78-C6B8B3B992A8}|Managers\\Manager.Workflow\\Manager.Workflow.csproj|solutionrelative:managers\\manager.workflow\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67B9411D-4E68-4ECD-9C78-C6B8B3B992A8}|Managers\\Manager.Workflow\\Manager.Workflow.csproj|c:\\users\\userl\\source\\repos\\design78\\managers\\manager.workflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{67B9411D-4E68-4ECD-9C78-C6B8B3B992A8}|Managers\\Manager.Workflow\\Manager.Workflow.csproj|solutionrelative:managers\\manager.workflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 207,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PluginManager.cs",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Processors\\Processor.PluginLoader\\Services\\PluginManager.cs",
+              "RelativeDocumentMoniker": "Processors\\Processor.PluginLoader\\Services\\PluginManager.cs",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Processors\\Processor.PluginLoader\\Services\\PluginManager.cs",
+              "RelativeToolTip": "Processors\\Processor.PluginLoader\\Services\\PluginManager.cs",
+              "ViewState": "AgIAAOQAAAAAAAAAAADwv/cAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T13:02:56.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Processors\\Processor.PluginLoader\\Dockerfile",
+              "RelativeDocumentMoniker": "Processors\\Processor.PluginLoader\\Dockerfile",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Processors\\Processor.PluginLoader\\Dockerfile",
+              "RelativeToolTip": "Processors\\Processor.PluginLoader\\Dockerfile",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAvwA4AAABYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-24T12:59:05.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Processors\\Processor.PluginLoader\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "Processors\\Processor.PluginLoader\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Processors\\Processor.PluginLoader\\appsettings.Production.json",
+              "RelativeToolTip": "Processors\\Processor.PluginLoader\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-24T12:46:16.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Processors\\Processor.PluginLoader\\appsettings.json",
+              "RelativeDocumentMoniker": "Processors\\Processor.PluginLoader\\appsettings.json",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Processors\\Processor.PluginLoader\\appsettings.json",
+              "RelativeToolTip": "Processors\\Processor.PluginLoader\\appsettings.json",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-24T12:46:06.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ManagerHttpClient.cs",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Orchestrator\\Services\\ManagerHttpClient.cs",
+              "RelativeDocumentMoniker": "Managers\\Manager.Orchestrator\\Services\\ManagerHttpClient.cs",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Orchestrator\\Services\\ManagerHttpClient.cs",
+              "RelativeToolTip": "Managers\\Manager.Orchestrator\\Services\\ManagerHttpClient.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAIwC0AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T12:23:07.749Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Orchestrator\\appsettings.json",
+              "RelativeDocumentMoniker": "Managers\\Manager.Orchestrator\\appsettings.json",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Orchestrator\\appsettings.json",
+              "RelativeToolTip": "Managers\\Manager.Orchestrator\\appsettings.json",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-24T12:17:20.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BaseProcessorApplication.cs",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Processors\\Processor.Base\\BaseProcessorApplication.cs",
+              "RelativeDocumentMoniker": "Processors\\Processor.Base\\BaseProcessorApplication.cs",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Processors\\Processor.Base\\BaseProcessorApplication.cs",
+              "RelativeToolTip": "Processors\\Processor.Base\\BaseProcessorApplication.cs",
+              "ViewState": "AgIAAIUCAAAAAAAAAAAYwI8CAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T12:10:38.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Schema\\Program.cs",
+              "RelativeDocumentMoniker": "Managers\\Manager.Schema\\Program.cs",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Schema\\Program.cs",
+              "RelativeToolTip": "Managers\\Manager.Schema\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T12:03:36.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Orchestrator\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "Managers\\Manager.Orchestrator\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Orchestrator\\appsettings.Production.json",
+              "RelativeToolTip": "Managers\\Manager.Orchestrator\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-24T11:37:26.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Orchestrator\\Program.cs",
+              "RelativeDocumentMoniker": "Managers\\Manager.Orchestrator\\Program.cs",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Orchestrator\\Program.cs",
+              "RelativeToolTip": "Managers\\Manager.Orchestrator\\Program.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAYwFcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T11:36:41.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Workflow\\Program.cs",
+              "RelativeDocumentMoniker": "Managers\\Manager.Workflow\\Program.cs",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Workflow\\Program.cs",
+              "RelativeToolTip": "Managers\\Manager.Workflow\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T11:21:40.129Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Workflow\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "Managers\\Manager.Workflow\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Workflow\\appsettings.Production.json",
+              "RelativeToolTip": "Managers\\Manager.Workflow\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-24T11:21:34.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Workflow\\appsettings.json",
+              "RelativeDocumentMoniker": "Managers\\Manager.Workflow\\appsettings.json",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.Workflow\\appsettings.json",
+              "RelativeToolTip": "Managers\\Manager.Workflow\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-24T11:19:39.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.OrchestratedFlow\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "Managers\\Manager.OrchestratedFlow\\appsettings.Production.json",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.OrchestratedFlow\\appsettings.Production.json",
+              "RelativeToolTip": "Managers\\Manager.OrchestratedFlow\\appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-24T11:18:57.074Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.OrchestratedFlow\\Program.cs",
+              "RelativeDocumentMoniker": "Managers\\Manager.OrchestratedFlow\\Program.cs",
+              "ToolTip": "C:\\Users\\UserL\\source\\repos\\Design78\\Managers\\Manager.OrchestratedFlow\\Program.cs",
+              "RelativeToolTip": "Managers\\Manager.OrchestratedFlow\\Program.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAAAD4AAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-24T11:11:34.419Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
